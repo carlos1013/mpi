@@ -1,4 +1,3 @@
-ip_ad_1 slots=4
-ip_ad_2 slots=4
-ip_ad_3 slots=4
-ip_ad_4 slots=4
+m1 slots=4
+m2 slots=4
+m3 slots=4
