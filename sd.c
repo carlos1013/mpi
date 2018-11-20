@@ -95,6 +95,7 @@ int main(int argc, char **argv) {
 	MPI_Init(&argc, &argv);
 	MPI_Comm_size(MPI_COMM_WORLD, &np);
 	MPI_Comm_rank(MPI_COMM_WORLD, &meu_rank);
+	printf("Estou vivissima\n");
 
 	if(!meu_rank){
 		bases = (char*) malloc(sizeof(char) * MAX);
